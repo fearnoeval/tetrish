@@ -1,0 +1,45 @@
+* {
+  background: #2C3D51;
+  border: 0;
+  color: #ffffff;
+  font-family: monaco, "Ubuntu Mono", "Droid Sans Mono", Consolas, monospace;
+  margin: 0;
+  padding: 0;
+}
+.bold {
+  color: #aaaaaa;
+  font-weight: bold;
+}
+.child {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.parent {
+  font-size: 0;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  width: 100%;
+}
+#main {
+  height: 500px;
+  margin: 0 auto;
+  width: 250px;
+}
+#stats {
+  margin: 1em;
+}
+.empty-piece { background: #e6e6fa; /* lavender      */ }
+.i-piece     { background: #32cd32; /* limegreen     */ }
+.j-piece     { background: #4682b4; /* steelblue     */ }
+.l-piece     { background: #d2b48c; /* tan           */ }
+.o-piece     { background: #b8860b; /* darkgoldenrod */ }
+.s-piece     { background: #ff6347; /* tomato        */ }
+.t-piece     { background: #9acd32; /* yellowgreen;  */ }
+.z-piece     { background: #bc8f8f; /* rosybrown     */ }
+.game-over {
+  background: #000000;
+  opacity: 0.3;
+}
